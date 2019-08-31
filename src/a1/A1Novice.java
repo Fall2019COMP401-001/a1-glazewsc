@@ -7,6 +7,7 @@ public class A1Novice {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
+		
 		int times = scan.nextInt();
 		String[] output = new String[times];
 		
@@ -25,7 +26,7 @@ public class A1Novice {
 			}
 			
 			
-			output[i] = firstName.charAt(0) + ". " + lastName + String.format("%.2f, totalAll");
+			output[i] = firstName.charAt(0) + ". " + lastName + String.format("%.2f", totalAll);
 			
 		}
 		
