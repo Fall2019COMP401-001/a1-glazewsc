@@ -26,7 +26,7 @@ public class A1Novice {
 			}
 			
 			
-			output[i] = firstName.charAt(0) + ". " + lastName + String.format("%.2f", totalAll);
+			output[i] = firstName.charAt(0) + ". " + lastName + ": " + String.format("%.2f", totalAll);
 			
 		}
 		
