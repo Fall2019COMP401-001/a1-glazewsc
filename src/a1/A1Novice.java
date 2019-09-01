@@ -19,7 +19,7 @@ public class A1Novice {
 			
 			for (int x=0; x<item; x++) {
 				double numOfItems = scan.nextDouble();
-				String itemName = scan.next();
+				String ignoreName = scan.next();
 				double cost = scan.nextDouble();
 				
 				totalAll += cost * numOfItems;	
