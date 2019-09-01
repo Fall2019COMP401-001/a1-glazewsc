@@ -71,7 +71,7 @@ public class A1Adept {
 		
 		System.out.println("Biggest: " + biggestCustomer + " (" + String.format("%.2f", biggestTotal) + ")");
 		System.out.println("Smallest: " + smallestCustomer + " (" + String.format("%.2f", smallestTotal) + ")");
-		System.out.println("Average: " + String.format("%.2f", allTotals));
+		System.out.println("Average: " + String.format("%.2f", allTotals/customer.length));
 		
 	}
 }
