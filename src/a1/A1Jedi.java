@@ -34,14 +34,10 @@ public class A1Jedi {
 						totalItems[a] = totalItems[a] + quantityOfItems;
 					}
 				}
+				System.out.println(numOfPeople + " customers bought " + totalItems[x] + " " + nameItemsForEach[x]);
 			}
 			
 		}
 		
-		
-		
-		
-		
-
 	}
 }
